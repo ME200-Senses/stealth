@@ -1,0 +1,54 @@
+.container{
+    clear: both;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 79px;
+    position: sticky;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    border: 1px solid rgba(220,224,227, 1);
+    opacity: 1;
+    background-color: rgba(255,255,255, 1);
+}
+.name{
+    float: left;
+    padding: 18px 0 18px 53px;
+}
+.one{
+    text-decoration: none;
+    opacity: 1;
+    color: rgba(64,73,101,1);
+    font-family: "NunitoSans-Bold", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.but{
+    display: flex;
+    float: right;
+    margin: 18px 47px 18px 0;
+    width: 138px;
+    height: 43px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(9,30,66, 0.25), 0px 0px 1px rgba(9,30,66, 0.31);
+    opacity: 1;
+    background-color: rgba(129,78,231, 1);
+    cursor: pointer;
+    align-items: center;
+}
+label {
+    cursor: pointer;
+    opacity: 1;
+    color: rgba(255,255,255,1);
+    font-family: "NunitoSans-ExtraBold", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 0px;
+    margin-left: 26px;
+}

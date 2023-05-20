@@ -1,0 +1,67 @@
+.main{
+    background-color: rgba(255,255,255, .2);
+    height: 100vh;
+    box-shadow: 0px 2px 8px rgba(99,99,99, 1);
+    opacity: 1;
+    z-index: 10;
+}
+.sidenav{
+    width: 226px;
+    
+}
+.upper{
+    display: flex;
+}
+.logo{
+    background-image: url("../../assets/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 44px;
+    height: 44px;
+    margin: 21px 0 0 32px;
+}
+.stealth{
+    text-decoration: none;
+    opacity: 1;
+    color: rgba(23,43,78,1);
+    font-family: "NunitoSans-Bold", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.18px;
+    text-align: left;
+    margin: 28px 39px 0 7px;
+}
+.bar{
+    margin: 24px 0 0 13px;
+    border-bottom: 1px solid #DCE0E3;
+    width: 199px;
+}
+.lower{
+    width: 198px;
+    height: 48px;
+    border-radius: 4px;
+    opacity: 1;
+    background-color: rgba(240,243,252, 1);
+    margin: 14px;
+    display: flex;
+    align-items: center;
+}
+.seclogo{
+    background-image: url("../../assets/seclogo.png");
+    width: 32px;
+    height: 32px;
+    margin: 0 8px 0 16px;
+}
+.file{
+    text-decoration: none;
+    opacity: 1;
+    color: rgba(39,47,72,1);
+    font-family: "NunitoSans-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.46px;
+    right: 0;
+   
+}
